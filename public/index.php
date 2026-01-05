@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/../app/tool-helper.php';
+
 // Load tool registry
 $tools = require __DIR__ . '/../config/tools.php';
 
@@ -40,3 +42,5 @@ if ($tool) {
 
 // No tool requested → base app
 echo 'Tools CTAL – Base setup working';
+
+
